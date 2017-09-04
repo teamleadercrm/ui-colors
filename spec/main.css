@@ -1,0 +1,197 @@
+@import '../index.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: var(--color-white);
+  color: var(--color-teal);
+  font-family: system-ui;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0 30px;
+}
+
+section {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+article {
+  flex: 1;
+  margin-right: 24px;
+}
+
+article:last-child {
+  margin-right: 0;
+}
+
+.color {
+  width: 100%;
+  text-align: right;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-family: Monaco, Courier;
+  font-size: 12px;
+}
+
+/* teal */
+.color-teal-lightest {
+  background: var(--color-teal-lightest);
+  color: var(--color-teal-darkest);
+}
+.color-teal-light {
+  background: var(--color-teal-light);
+  color: var(--color-teal-darkest);
+}
+.color-teal {
+  background: var(--color-teal);
+  color: var(--color-white);
+}
+.color-teal-dark {
+  background: var(--color-teal-dark);
+  color: var(--color-white);
+}
+.color-teal-darkest {
+  background: var(--color-teal-darkest);
+  color: var(--color-white);
+}
+
+/* mint */
+.color-mint-lightest {
+  background: var(--color-mint-lightest);
+  color: var(--color-mint-darkest);
+}
+.color-mint-light {
+  background: var(--color-mint-light);
+  color: var(--color-mint-darkest);
+}
+.color-mint {
+  background: var(--color-mint);
+  color: var(--color-white);
+}
+.color-mint-dark {
+  background: var(--color-mint-dark);
+  color: var(--color-white);
+}
+.color-mint-darkest {
+  background: var(--color-mint-darkest);
+  color: var(--color-white);
+}
+
+/* neutral */
+.color-neutral-lightest {
+  background: var(--color-neutral-lightest);
+  color: var(--color-neutral-darkest);
+}
+.color-neutral-light {
+  background: var(--color-neutral-light);
+  color: var(--color-neutral-darkest);
+}
+.color-neutral {
+  background: var(--color-neutral);
+  color: var(--color-neutral-darkest);
+}
+.color-neutral-dark {
+  background: var(--color-neutral-dark);
+  color: var(--color-white);
+}
+.color-neutral-darkest {
+  background: var(--color-neutral-darkest);
+  color: var(--color-white);
+}
+
+/* violet */
+.color-violet-lightest {
+  background: var(--color-violet-lightest);
+  color: var(--color-violet-darkest);
+}
+.color-violet-light {
+  background: var(--color-violet-light);
+  color: var(--color-violet-darkest);
+}
+.color-violet {
+  background: var(--color-violet);
+  color: var(--color-white);
+}
+.color-violet-dark {
+  background: var(--color-violet-dark);
+  color: var(--color-white);
+}
+.color-violet-darkest {
+  background: var(--color-violet-darkest);
+  color: var(--color-white);
+}
+
+/* ruby */
+.color-ruby-lightest {
+  background: var(--color-ruby-lightest);
+  color: var(--color-ruby-darkest);
+}
+.color-ruby-light {
+  background: var(--color-ruby-light);
+  color: var(--color-ruby-darkest);
+}
+.color-ruby {
+  background: var(--color-ruby);
+  color: var(--color-white);
+}
+.color-ruby-dark {
+  background: var(--color-ruby-dark);
+  color: var(--color-white);
+}
+.color-ruby-darkest {
+  background: var(--color-ruby-darkest);
+  color: var(--color-white);
+}
+
+/* gold */
+.color-gold-lightest {
+  background: var(--color-gold-lightest);
+  color: var(--color-gold-darkest);
+}
+.color-gold-light {
+  background: var(--color-gold-light);
+  color: var(--color-gold-darkest);
+}
+.color-gold {
+  background: var(--color-gold);
+  color: var(--color-gold-darkest);
+}
+.color-gold-dark {
+  background: var(--color-gold-dark);
+  color: var(--color-white);
+}
+.color-gold-darkest {
+  background: var(--color-gold-darkest);
+  color: var(--color-white);
+}
+
+/* aqua */
+.color-aqua-lightest {
+  background: var(--color-aqua-lightest);
+  color: var(--color-aqua-darkest);
+}
+.color-aqua-light {
+  background: var(--color-aqua-light);
+  color: var(--color-aqua-darkest);
+}
+.color-aqua {
+  background: var(--color-aqua);
+  color: var(--color-aqua-darkest);
+}
+.color-aqua-dark {
+  background: var(--color-aqua-dark);
+  color: var(--color-white);
+}
+.color-aqua-darkest {
+  background: var(--color-aqua-darkest);
+  color: var(--color-white);
+}
