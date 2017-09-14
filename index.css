@@ -2,13 +2,13 @@
   --color-black: #000000;
   --color-white: #ffffff;
 
-  --color-teal-lightest: #e1ecfa;
+  --color-teal-lightest: #e1edfa;
   --color-teal-light: #c1cede;
   --color-teal: #64788f;
   --color-teal-dark: #344b63;
-  --color-teal-darkest: #2a3b4d;
+  --color-teal-darkest: #2a3a4c;
 
-  --color-mint-lightest: #d3f2f2;
+  --color-mint-lightest: #d3f3f3;
   --color-mint-light: #57d3d2;
   --color-mint: #00a1a1;
   --color-mint-dark: #008a8c;
@@ -21,10 +21,10 @@
   --color-violet-darkest: #130abf;
 
   --color-ruby-lightest: #ffe3d9;
-  --color-ruby-light: #ffa98c;
+  --color-ruby-light: #ffbca6;
   --color-ruby: #ff7040;
-  --color-ruby-dark: #ff5319;
-  --color-ruby-darkest: #c23000;
+  --color-ruby-dark: #e84b17;
+  --color-ruby-darkest: #992600;
 
   --color-gold-lightest: #ffeecc;
   --color-gold-light: #ffda8f;
@@ -39,8 +39,8 @@
   --color-aqua-darkest: #004da6;
 
   --color-neutral-lightest: #ffffff;
-  --color-neutral-light: #f7f7fa;
-  --color-neutral: #e3e3e6;
-  --color-neutral-dark: #c0c0c4;
+  --color-neutral-light: #f8f8fa;
+  --color-neutral: #e4e4e6;
+  --color-neutral-dark: #c1c1c5;
   --color-neutral-darkest: #82828c;
 }
