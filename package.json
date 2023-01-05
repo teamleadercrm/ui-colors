@@ -19,6 +19,9 @@
     "url": "https://github.com/teamleadercrm/ui-colors/issues"
   },
   "homepage": "https://github.com/teamleadercrm/ui-colors#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
   "dependencies": {
     "lodash.without": "^4.4.0"
   }
