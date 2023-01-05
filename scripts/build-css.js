@@ -22,7 +22,7 @@ Object.keys(COLOR).forEach((color) => {
   });
 });
 css += getColorCSS("black", null, "#000");
-css += getColorCSS("white", null, "#000");
+css += getColorCSS("white", null, "#fff");
 css += "\n}";
 
 fs.writeFileSync("index.css", css);
