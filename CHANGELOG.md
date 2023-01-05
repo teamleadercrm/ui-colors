@@ -10,6 +10,16 @@
 
 ### Fixed
 
+## [1.0.0] - 2023-01-05
+
+### Changed
+
+- colors are defined in HSL values instead of HEX values. ([@owiebenoot](https://github.com/owiebenoot)) in ([#4](https://github.com/teamleadercrm/ui/pull/4))
+
+### Added
+
+- colors can be imported in JavaScript/TypeScript as well now. ([@owiebenoot](https://github.com/owiebenoot)) in ([#4](https://github.com/teamleadercrm/ui/pull/4))
+
 ## [0.3.0] - 2020-05-19
 
 ### Changed
