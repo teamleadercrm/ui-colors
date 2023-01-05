@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/teamleadercrm/ui-colors/issues"
   },
-  "homepage": "https://github.com/teamleadercrm/ui-colors#readme"
+  "homepage": "https://github.com/teamleadercrm/ui-colors#readme",
+  "dependencies": {
+    "lodash.without": "^4.4.0"
+  }
 }
