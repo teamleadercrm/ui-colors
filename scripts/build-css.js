@@ -1,10 +1,12 @@
 const COLOR = require("../constants").COLOR;
-const hexToHsl = require("hex-to-hsl");
+const colorConvert = require("color-convert");
 const fs = require("fs");
 
 function getColorCSS(color, tint, hex) {
   const name = !tint || tint === "normal" ? color : `${color}-${tint}`;
-  const [h, s, l] = hexToHsl(hex);
+  const [h, s, l] = colorConvert.hex.hsl
+    .raw(hex)
+    .map((number) => parseFloat(number.toFixed(2)));
 
   return `
   --color-${name}-hsl-h: ${h};
