@@ -27,6 +27,8 @@
   "scripts": {
     "build:js": "tsc",
     "build:css": "node scripts/build-css.js",
+    "build": "yarn run build:js && yarn run build:css",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "lodash.without": "^4.4.0"
