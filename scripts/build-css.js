@@ -1,4 +1,4 @@
-const COLOR = require("../constants").COLOR;
+const COLOR = require("../colors.json");
 const colorConvert = require("color-convert");
 const fs = require("fs");
 
