@@ -12,7 +12,8 @@ function getColorCSS(color, tint, hex) {
   --color-${name}-hsl-h: ${Math.round(h)};
   --color-${name}-hsl-s: ${s}%;
   --color-${name}-hsl-l: ${l}%;
-  --color-${name}: hsl(var(--color-${name}-hsl-h), var(--color-${name}-hsl-s), var(--color-${name}-hsl-l));`;
+  --color-${name}-hsl: var(--color-${name}-hsl-h), var(--color-${name}-hsl-s), var(--color-${name}-hsl-l);
+  --color-${name}: hsl(var(--color-${name}-hsl));`;
 }
 
 let css = ":root {";
