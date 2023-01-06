@@ -81,7 +81,7 @@ The available color variables are
 --color-white
 ```
 
-The colors are defined as hsl values. For each color the h, s an l value are also available as separate variables. This way you can do color calculations on them with native css (instead of using postcss-color plugin for example). Some examples:
+The colors are defined as hsl values. For each color the h, s an l value are also available as separate variables. There is also a variable that has the hsl values combined. This way you can do color calculations on them with native css (instead of using postcss-color plugin for example). Some examples:
 
 lighten(12%)
 ```css
@@ -90,9 +90,13 @@ hsl(var(--color-ruby-hsl-h), var(--color-ruby-hsl-s), calc(var(--color-ruby-hsl-
 
 tint(64%)
 ```css
-hsl(calc(var(--color-ruby-h) / 1), calc(var(--color-ruby-s) / 1), calc(var(--color-ruby-l) * 1.64))
+hsl(var(--color-ruby-h), var(--color-ruby-s), calc(var(--color-ruby-l) * 1.64))
 ```
 
+alpha(12%)
+```css
+hsl(var(--color-ruby-hsl), 12%))
+```
 
 ### JavaScript
 
