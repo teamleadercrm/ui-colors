@@ -23,8 +23,15 @@ Object.keys(COLOR).forEach((color) => {
     css += getColorCSS(color.toLowerCase(), tint.toLowerCase(), hex);
   });
 });
+
+// "secretly" adding some extra colors that are not really documented, but that we're using anyways.
 css += getColorCSS("black", null, "#000");
 css += getColorCSS("white", null, "#fff");
+css += getColorCSS("marketing-violet", "lightest", "#e9e8ff");
+css += getColorCSS("marketing-violet", "light", "#d3d1fe");
+css += getColorCSS("marketing-violet", null, "#4f1fff");
+css += getColorCSS("marketing-violet", "dark", "#2800b8");
+
 css += "\n}";
 
 fs.writeFileSync("index.css", css);
