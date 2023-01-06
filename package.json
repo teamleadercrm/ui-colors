@@ -1,7 +1,7 @@
 {
   "name": "@teamleader/ui-colors",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Teamleader UI colors",
   "main": "index.css",
   "repository": {
