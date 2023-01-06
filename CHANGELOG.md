@@ -10,6 +10,16 @@
 
 ### Fixed
 
+## [1.1.0] - 2023-01-06
+
+### Added
+
+- All colors now also have a variable with combined hsl values (e.g. `--color-mint-hsl`)
+
+### Changed
+
+- Build for ES5 and commonJS.
+
 ## [1.0.0] - 2023-01-05
 
 ### Changed
