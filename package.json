@@ -25,7 +25,7 @@
     "typescript": "^4.9.4"
   },
   "scripts": {
-    "build:js": "tsc",
+    "build:js": "tsc --declaration",
     "build:css": "node scripts/build-css.js",
     "build": "yarn run build:js && yarn run build:css",
     "prepublishOnly": "yarn build"
