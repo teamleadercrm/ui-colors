@@ -95,7 +95,7 @@ hsl(var(--color-ruby-h), var(--color-ruby-s), calc(var(--color-ruby-l) * 1.64))
 
 alpha(12%)
 ```css
-hsl(var(--color-ruby-hsl), 12%))
+hsl(var(--color-ruby-hsl) / 12%))
 ```
 
 ### JavaScript
