@@ -1,3 +1,7 @@
+> [!WARNING]
+> This package is deprecated. The content is moved to the [@teamleader/ahoy](https://www.npmjs.com/package/@teamleader/ahoy) package. 
+> The further development of the project will be closed-source but the package will be published under the new name.
+
 # Teamleader UI Colors
 
 Teamleader UI colors is a package that defines the colors that we use in our UI package and projects.
